@@ -36,7 +36,7 @@ footer{
 }
 /*social -media*/
 .socials{
-    position:relative; right: 40px;
+    position:relative; right: 25px;
     list-style: none;
     display: flex;
     align-items: center;
