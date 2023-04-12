@@ -1,0 +1,75 @@
+Body{
+height: 100vh;
+background-color: gray;
+background-image: url("ShopRed.jpg");
+background-size:100% 100%;
+background-repeat: no-repeat;
+display: fixed;
+
+}
+
+.Navbar-header{
+	 color: red;
+}
+
+footer{
+	position: fixed;
+	bottom: 0;
+	background: black;
+	height: 50px;
+	width: 100vw;
+	padding: 10px;
+}
+/*content*/
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #2A3439;
+}
+.footer p{
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+/*social -media*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;	
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+/* copyright*/
+.footer-copyright{
+    background: #000;
+    width: 100%;
+    padding: 0px;
+}
+.footer-copyright p{
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+	display: auto;
+}
