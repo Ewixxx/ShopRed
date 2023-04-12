@@ -22,7 +22,7 @@ footer{
 }
 /*content*/
 .footer{
-    size: 100%;
+    background-size: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: center;
