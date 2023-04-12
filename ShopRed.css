@@ -36,6 +36,7 @@ footer{
 }
 /*social -media*/
 .socials{
+    position:relative; right: 40px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -46,6 +47,7 @@ footer{
     margin: 0 10px;
 }
 .socials a{
+    
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
