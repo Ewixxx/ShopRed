@@ -3,3 +3,32 @@ body{
 	
 	
 }
+.container-fluid{
+	width: 100vw;
+	
+}
+
+.books-firtsrow{
+	position: float;
+	position:relative; left: 10px;
+	position:relative; top: 30px;
+    list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+	
+	
+}
+.books-firtsrow li{
+    margin: 0 30px;
+}
+.book-namesone{
+	position:relative; left: 30px;
+	position:relative; top: 30px;
+	list-style: none;
+    display: flex;
+    margin: 1rem 0 3rem 0;
+}
+.book-namesone li{
+	
+	margin: 0 30px;
+}
