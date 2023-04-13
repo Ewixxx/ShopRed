@@ -72,7 +72,7 @@ footer{
 	display: auto;
 }
 .floating {  
-    position:relative; right: 40px;
+    position:relative; right: 15px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
