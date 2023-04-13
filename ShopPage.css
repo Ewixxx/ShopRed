@@ -1,6 +1,7 @@
 body{
+	height: 100vh;
 	background-color: #EC5E6A;
-	
+	display: fixed;
 	
 }
 .container-fluid{
