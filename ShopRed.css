@@ -30,8 +30,11 @@ footer{
 	background-color: #2A3439;
 }
 .footer p{
-    line-height: 28px;
+	position:relative; bottom: 25px;
+	position:relative; right: 23px;
+    line-height: 10px;
     font-size: 14px;
+	color: white;
 }
 /*social -media*/
 .socials{
