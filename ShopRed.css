@@ -29,13 +29,7 @@ footer{
 	text-align: center;
 	background-color: #2A3439;
 }
-.footer p{
-	position:relative; bottom: 25px;
-	position:relative; right: 15px;
-    line-height: 10px;
-    font-size: 14px;
-	color: white;
-}
+
 /*social -media*/
 .socials{
     position:relative; right: 10px;
