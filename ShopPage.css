@@ -1,11 +1,13 @@
 body{
-	height: 100vh;
-	background-color: #EC5E6A;
+	background-color: #2F2F2F;
+	background-repeat: no-repeat;
 	display: fixed;
-	
-}
-.container-fluid{
+	size: 100%;
 	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+	
+	
 	
 }
 
@@ -20,17 +22,50 @@ body{
 	
 }
 .books-firtsrow li{
-    margin: 0 30px;
+    margin: 0 45px;
 }
+
+.bookstat{
+	display: flex;
+	list-style-type: none;
+	position:relative; left: 10px;
+	margin: 0 40px;
+	align-items: center;
+	
+
+}
+.bookstat li{
+	margin-right: 140px;
+	margin-left: 60px;
+	margin-bottom: 10px;
+	
+}
+
+
+.price{
+	display: flex;
+	position:relative; right: 160px;
+	list-style: none;
+
+	
+}
+.price li{
+	
+	margin-left: 280px;
+	margin-top: -25px;
+	
+}
+
+
 .book-namesone{
 	position:relative; left: 30px;
-	position:relative; top: 30px;
 	list-style: none;
     display: flex;
     margin: 1rem 0 3rem 0;
 }
 .book-namesone li{
 	
-	margin: 0 30px;
+	margin: 0 40px;
+	margin-top: -20px;
 }
 
