@@ -48,10 +48,3 @@ body{
     to   { transform: translate(0, -1px); }  
 	
 }
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: #cfd2d6;
-}
