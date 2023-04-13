@@ -79,7 +79,7 @@ footer{
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
-    font-family: "MV Boli";
+    font-family:"MV Boli";
 }
 
 @keyframes floating {
