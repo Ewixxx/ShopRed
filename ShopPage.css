@@ -58,15 +58,5 @@ body{
 }
 
 
-.book-namesone{
-	position:relative; right: 30px;
-	list-style: none;
-    display: flex;
-    margin: 1rem 0 3rem 0;
-}
-.book-namesone li{
-	margin-right: 40px;
-	margin-left: 120px;
-	margin-top: -20px;
-}
+
 
