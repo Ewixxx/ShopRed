@@ -36,7 +36,7 @@ h1{
     width: 95%;
     height: 60vh;
     margin: 0 auto;
-    display: grid;
+    display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     overflow: hidden;
     overflow-x: scroll;
