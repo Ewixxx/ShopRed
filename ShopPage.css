@@ -87,7 +87,14 @@ h1{
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn{
     padding: 8px 20px;
-    border: 2px solid red;
+	background-color: #565656;
+    text-decoration: none;
+    color: orange;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn:hover{
+	box-shadow: 0 0 5px red;
+    padding: 8px 20px;
 	background-color: #565656;
     text-decoration: none;
     color: #000;
@@ -129,6 +136,8 @@ h1{
     margin: 0 auto;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
 
 }
 
@@ -177,10 +186,16 @@ h1{
 
 .other-books .other_book_box .other_book_card .other_book_tag .f_btn{
     padding: 8px 20px;
-    border: 2px solid red;
 	background-color: #565656;
     text-decoration: none;
-    color: #000;
+    color: orange;
+}
+.other-books .other_book_box .other_book_card .other_book_tag .f_btn:hover{
+	box-shadow: 0 0 5px red;
+    padding: 8px 20px;
+	background-color: #565656;
+    text-decoration: none;
+    color: orange;
 }
 
 
