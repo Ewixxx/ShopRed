@@ -40,7 +40,7 @@ body{
     height: 420px;
     text-align: center;
     padding: 5px;
-    border: 1px solid #919191;
+    border: 1px solid gray;
     margin: auto 20px;
 }
 
@@ -78,7 +78,8 @@ body{
 
 .featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn{
     padding: 8px 20px;
-    border: 2px solid #089da1;
+    border: 2px solid red;
+	background-color: #565656;
     text-decoration: none;
     color: #000;
 }
