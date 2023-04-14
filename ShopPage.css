@@ -43,6 +43,9 @@ h1{
     border: 1px solid gray;
     margin: auto 20px;
 }
+.featurde_book_img:hover{
+	transform: scale(1.3);
+}
 
 .featured_boks .featured_book_box .featured_book_card:hover{
     box-shadow: 0 0 5px red;
