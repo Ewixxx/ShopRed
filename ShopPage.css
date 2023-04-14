@@ -132,7 +132,7 @@ h1{
 
 }
 
-.other-books .other_books_box .other_book_card{
+.other-books .other_book_box .other_book_card{
     width: 250px;
     height: 420px;
     text-align: center;
@@ -147,7 +147,7 @@ h1{
     box-shadow: 0 0 5px red;
 }
 
-.other-books .other_book_box .fother_book_card .other_book_img img{
+.other-books .other_book_box .other_book_card .other_book_img img{
     width: 150px;
 }
 
