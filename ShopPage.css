@@ -28,16 +28,15 @@ body{
 .bookstat{
 	display: flex;
 	list-style-type: none;
-	position:relative; left: 10px;
-	margin: 0 40px;
+	position:relative; left: 40px;
 	align-items: center;
 	
 
 }
 .bookstat li{
-	margin-right: 140px;
-	margin-left: 60px;
-	margin-bottom: 10px;
+	margin-right: 180px;
+	margin-left: 90px;
+	margin-bottom: 0;
 	
 }
 
