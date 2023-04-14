@@ -7,9 +7,10 @@ body{
 	height: 100vh;
 	margin: 0 auto;
 	
-	
-	
 }
+h1 {
+	font-family: "Times New Roman", Times, serif;
+  }
 .navbar{
 	position: fixed;
 	top: 0;
