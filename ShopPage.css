@@ -111,3 +111,92 @@ h1{
 
 
 
+
+
+
+.other-books{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+
+}
+
+
+
+.other-books .other_book_box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+
+.other-books .other_books_box .other_book_card{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    margin: auto 20px;
+}
+.other_book_img:hover{
+	transform: scale(1.3);
+}
+
+.other-books .other_book_box .other_book_card:hover{
+    box-shadow: 0 0 5px red;
+}
+
+.other-books .other_book_box .fother_book_card .other_book_img img{
+    width: 150px;
+}
+
+.other-books .other_book_box .other_book_card .other_book_tag h2{
+    margin: 12px;
+}
+
+.other-books .other_book_box .other_book_card .other_book_tag .writer{
+    color: #919191;
+}
+
+.other-books .other_book_box .other_book_card .other_book_tag .categories{
+    color: #089da1;
+    margin-top: 8px;
+}
+
+.other-books .other_book_box .other_book_card .other_book_tag .book_price{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.other-books .other_book_box .other_book_card .other_book_tag .book_price sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.other-books .other_book_box .other_book_card .other_book_tag .f_btn{
+    padding: 8px 20px;
+    border: 2px solid red;
+	background-color: #565656;
+    text-decoration: none;
+    color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px red;
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 10px;
+}
+
+
+
