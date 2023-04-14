@@ -17,7 +17,7 @@ body{
     padding: 70px 0;
 }
 
-.featured_boks h1{
+h1{
     display: flex;
     align-items: center;
     justify-content: center;
