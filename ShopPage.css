@@ -11,50 +11,92 @@ body{
 	
 }
 
-.books-firtsrow{
-	position: float;
-	position:relative; left: 10px;
-	position:relative; top: 30px;
-    list-style: none;
+.featured_boks{
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.featured_boks h1{
     display: flex;
-    margin: 1rem 0 3rem 0;
-	
-	
-}
-.books-firtsrow li{
-    margin: 0 45px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
 }
 
-.bookstat{
-	display: flex;
-	list-style-type: none;
-	position:relative; left: 40px;
-	align-items: center;
-	
-
-}
-.bookstat li{
-	margin-right: 180px;
-	margin-left: 90px;
-	margin-bottom: 0;
-	
+.featured_boks .featured_book_box{
+    width: 95%;
+    height: 60vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
 }
 
-
-.price{
-	display: flex;
-	position:relative; right: 160px;
-	list-style: none;
-	margin: 1rem 0 3rem 0;
-
-	
+.featured_boks .featured_book_box .featured_book_card{
+    width: 250px;
+    height: 420px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #919191;
+    margin: auto 20px;
 }
-.price li{
-	
-	margin-left: 280px;
-	margin-top: -25px;
-	
+
+.featured_boks .featured_book_box .featured_book_card:hover{
+    box-shadow: 0 0 5px red;
 }
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_img img{
+    width: 150px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag h2{
+    margin: 12px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .writer{
+    color: #919191;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .categories{
+    color: #089da1;
+    margin-top: 8px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price{
+    margin-top: 8px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .book_price sub{
+    font-weight: 100;
+    padding: 0 5px;
+}
+
+.featured_boks .featured_book_box .featured_book_card .featurde_book_tag .f_btn{
+    padding: 8px 20px;
+    border: 2px solid #089da1;
+    text-decoration: none;
+    color: #000;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track{
+    box-shadow: inset 0 0 8px red;
+}
+
+::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 10px;
+}
+
 
 
 
