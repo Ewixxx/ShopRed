@@ -17,6 +17,12 @@ h1 {
 	width: 100%;
 	z-index: 999; 
 }
+.navbar-header img{
+	
+    position:relative; top: 10px;
+    padding-bottom: -5px;
+        
+    }
 .featured_boks{
     width: 100%;
     height: 100vh;
