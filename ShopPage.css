@@ -15,6 +15,10 @@ h1 {
   h2 {
 	font-family: "Times New Roman", Times, serif;
   }
+
+  h3 {
+	font-family: "Times New Roman", Times, serif;
+  }
 .navbar{
 	position: fixed;
 	top: 0;
@@ -41,6 +45,23 @@ h1{
     margin-bottom: 30px;
     font-size: 45px;
 }
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
+h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-size: 45px;
+}
+
 
 .featured_boks .featured_book_box{
     width: 95%;
