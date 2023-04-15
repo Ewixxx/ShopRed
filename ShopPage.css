@@ -46,7 +46,7 @@ h1{
     font-size: 45px;
 }
 
-h2{
+.other-books h2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -54,7 +54,7 @@ h2{
     font-size: 45px;
 }
 
-h3{
+.other-books h3{
     display: flex;
     align-items: center;
     justify-content: center;
