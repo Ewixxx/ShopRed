@@ -317,7 +317,7 @@ footer{
     cursor: pointer;
 }
 
-.services .services_box .services_card h4{
+.services .services_box .services_card h3{
     margin-bottom: 10px;
 	color: orange;
 }
