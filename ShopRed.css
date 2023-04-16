@@ -11,6 +11,11 @@ display: fixed;
 	box-shadow: 0 0 10px red;
 
 }
+.navbar .navbar-brand{
+    color:red;
+    
+
+}
 .Navbar-header{
 	 color: red;
 }
