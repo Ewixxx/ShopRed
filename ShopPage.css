@@ -24,6 +24,7 @@ h1 {
 	top: 0;
 	width: 100%;
 	z-index: 999; 
+	box-shadow: 0 0 10px red;
 }
 .navbar-header img{
 	
@@ -46,21 +47,7 @@ h1{
     font-size: 45px;
 }
 
-.other-books h2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-size: 45px;
-}
 
-.other-books h3{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 30px;
-    font-size: 45px;
-}
 
 
 .featured_boks .featured_book_box{
@@ -159,7 +146,17 @@ h1{
 
 }
 
+.other-books h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.other-books h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .other-books .other_book_box{
     width: 95%;
@@ -289,3 +286,40 @@ footer{
 	display: auto;
 }
 
+.services{
+    width: 100%;
+    height: auto;
+    margin: 35px 0;
+}
+
+.services .services_box{
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.services .services_box .services_card{
+    text-align: center;
+    width: 310px;
+    height: auto;
+    box-shadow: 0 0 8px red;
+    padding: 15px 10px;
+}
+
+.services .services_box .services_card i{
+    color: red;
+    font-size: 45px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+.services .services_box .services_card h3{
+    margin-bottom: 10px;
+	color: orange;
+}
+.services .services_box  .services_card p{
+	
+	color:white;
+}
