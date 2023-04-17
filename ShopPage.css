@@ -336,7 +336,7 @@ footer{
 }
 
 .discount .discount-box .discount-image img{
-	position:relative; top: 300px;
+	position:relative; top: 50px;
 	position:center;
     height: 50vh;
     margin: 10px auto;
