@@ -327,3 +327,21 @@ footer{
 	
 	color:white;
 }
+.discount .discount-box{
+	position:center;
+    height: 80vh;
+    margin: 0 auto;
+    display: auto;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    overflow: hidden;
+    overflow-x: scroll;
+}
+.discount .discount-box .discount-image img{
+	position:relative; top: 100px;
+	position:center;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    overflow: hidden;
+    overflow-x: scroll;
+}
