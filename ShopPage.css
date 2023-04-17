@@ -301,6 +301,7 @@ footer{
     grid-template-columns: 1fr 1fr 1fr 1fr;
     overflow: hidden;
     overflow-x: scroll;
+    margin-bottom: 100px;
 }
 
 .services .services_box .services_card{
