@@ -60,9 +60,27 @@ footer{
 	color: white;
 
 }
+footer{
+	position: fixed;
+	bottom: 0;
+	background: black;
+	height: 50px;
+	width: 100vw;
+}
+/*content*/
+.footer{
+    background-size: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	background-color: #2A3439;
+}
+
 /*social -media*/
 .socials{
-	position:relative; right: 40px;
+    position:relative; right: 10px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -73,6 +91,7 @@ footer{
     margin: 0 10px;
 }
 .socials a{
+    
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
@@ -87,20 +106,6 @@ footer{
 .socials a:hover i{
     color: dodgerblue;
 }
-/* copyright*/
-.footer-copyright{
-    background: #000;
-    width: 100%;
-    padding: 0px;
-}
-.footer-copyright p{
-    font-size: 14px;
-    word-spacing: 2px;
-    align-items: center;
-    justify-content: center;
-	display: auto;
-}
-
 .floating {  
 position:relative; right: 15px;
     animation-name: floating;
