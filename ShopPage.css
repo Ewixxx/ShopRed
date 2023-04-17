@@ -286,43 +286,4 @@ footer{
 	display: auto;
 }
 
-.services{
-	position:relative;top:100px;
-	display:auto;
-    width: 100%;
-    height: auto;
-}
 
-.services .services_box{
-    width: 95%;
-    height: 60vh;
-    margin: 0 auto;
-    display: flex;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    overflow: hidden;
-    overflow-x: scroll;
-}
-
-.services .services_box .services_card{
-    text-align: center;
-    width: 310px;
-    height: auto;
-    box-shadow: 0 0 8px red;
-    padding: 15px 10px;
-}
-
-.services .services_box .services_card i{
-    color: red;
-    font-size: 45px;
-    margin-bottom: 15px;
-    cursor: pointer;
-}
-
-.services .services_box .services_card h3{
-    margin-bottom: 10px;
-	color: orange;
-}
-.services .services_box  .services_card p{
-	
-	color:white;
-}
