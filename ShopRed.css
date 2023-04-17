@@ -1,23 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
 Body{
-height: 100vh;
-background-color: gray;
+height: 70vh;
+background-color: black;
 background-image: url("ShopRed.jpg");
-background-size:100% 100%;
+background-size:70% 100%;
 background-repeat: no-repeat;
 display: fixed;
+background-position: center;
+}
+.nav{
+	box-shadow:red;
+	
+}
+.navbar .navbar-brand{
+    color:red;
+    
 
+}
+.navbar .container-fluid .navbar-header .navbar-toggle .icon-bar{
+	color:red;
+	
 }
 .navbar{
 	box-shadow: 0 0 10px red;
-    
-}
-.navbar li{
-color:red;
-    
-} 
-.navbar .navbar-brand{
-    color:red;
-
 
 }
 .Navbar-header{
@@ -30,6 +40,7 @@ footer{
 	background: black;
 	height: 50px;
 	width: 100vw;
+	
 }
 /*content*/
 .footer{
@@ -41,10 +52,17 @@ footer{
 	text-align: center;
 	background-color: #2A3439;
 }
+.footer p{
+	position:relative; bottom: 25px;
+	position:relative; right: 23px;
+    line-height: 10px;
+    font-size: 14px;
+	color: white;
 
+}
 /*social -media*/
 .socials{
-    position:relative; right: 10px;
+	position:relative; right: 40px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -55,7 +73,6 @@ footer{
     margin: 0 10px;
 }
 .socials a{
-    
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
@@ -83,15 +100,18 @@ footer{
     justify-content: center;
 	display: auto;
 }
+
 .floating {  
-    position:relative; right: 15px;
+position:relative; right: 15px;
     animation-name: floating;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     margin-left: 30px;
     margin-top: 5px;
-    font-family:"MV Boli";
+	font-family:"MV Boli";
+	
+	
 }
 
 @keyframes floating {
@@ -100,3 +120,77 @@ footer{
     to   { transform: translate(0, -1px); }  
 	
 }
+
+
+
+.discount{
+	  overflow: hidden;
+      height: 400px;	
+      margin-left: 0px;
+      margin-top: 20px;
+	  display: flex;
+	}
+
+.discount .discount-box .discount-image img{
+	position:relative; top: 200px;
+	position:center;
+    height: 40vh;
+    margin: 10px auto;
+    display: flex;
+
+}
+
+
+  /*---------- SLIDE ANIMATION --------------*/
+ 
+ 
+  @keyframes slide_animation{
+	  0%  {right:50px;}
+      10% {right:50px;}
+      20% {right:450px;}
+      30% {right:450px;}
+      40% {right:900px;}
+      50% {right:900px;}
+      60% {right:450px;}
+      70% {right:450px;}
+      80% {right:100px;}
+      90% {right:100px;}
+      100%{right:100px;}
+  }
+   @-webkit-keyframes slide_animation{
+	  0%  {right:100px;}
+      10% {right:100px;}
+      20% {right:450px;}
+      30% {right:450px;}
+      40% {right:900px;}
+      50% {right:900px;}
+      60% {right:450px;}
+      70% {right:450px;}
+      80% {right:100px;}
+      90% {right:100px;}
+      100%{right:100px;} 
+   }
+ 
+  .discount-box{
+      width: 100%;
+	  margin: 0 0 0 0;
+      height:400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 10s;
+      animation-duration: 10s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
+ 
+  .discount-image{
+      height: 400px;
+      width: 500px;
+      position: center;
+      float: center;
+  }
