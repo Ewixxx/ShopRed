@@ -295,7 +295,7 @@ footer{
 
 .services .services_box{
     width: 95%;
-    height: 30vh;
+    height: 40vh;
     margin: 0 auto;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
