@@ -357,8 +357,8 @@ footer{
       50% {right:800px;}
       60% {right:1600px;}
       70% {right:1600px;}
-      80% {right:800px;}
-      90% {right:800px;}
+      80% {right:0px;}
+      90% {right:0px;}
       100%{right:0px;}	
   }
  
