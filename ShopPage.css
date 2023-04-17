@@ -288,10 +288,9 @@ footer{
 
 .services{
 	position:relative;top:100px;
-	display:flex;
+	display:auto;
     width: 100%;
     height: auto;
-    margin: 35px 0;
 }
 
 .services .services_box{
