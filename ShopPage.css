@@ -338,7 +338,7 @@ footer{
 .discount .discount-box .discount-image img{
 	position:relative; top: 100px;
 	position:center;
-    height: 40vh;
+    height: 35vh;
     margin: 10px auto;
     display: flex;
 
@@ -349,30 +349,30 @@ footer{
  
  
   @keyframes slide_animation{
-	  0%  {right:0px;}
-      10% {right:0px;}
+	  0%  {right:10px;}
+      10% {right:100px;}
       20% {right:450px;}
       30% {right:450px;}
       40% {right:900px;}
       50% {right:900px;}
       60% {right:450px;}
       70% {right:450px;}
-      80% {right:0px;}
-      90% {right:0px;}
-      100%{right:0px;} 
+      80% {right:100px;}
+      90% {right:100px;}
+      100%{right:100px;} 
   }
    @-webkit-keyframes slide_animation{
-	  0%  {right:0px;}
-      10% {right:0px;}
-      20% {right:450px;}
-      30% {right:450px;}
-      40% {right:950px;}
-      50% {right:950px;}
-      60% {right:500px;}
-      70% {right:500px;}
-      80% {right:0px;}
-      90% {right:0px;}
-      100%{right:0px;} 
+    0%  {right:10px;}
+    10% {right:100px;}
+    20% {right:450px;}
+    30% {right:450px;}
+    40% {right:900px;}
+    50% {right:900px;}
+    60% {right:450px;}
+    70% {right:450px;}
+    80% {right:100px;}
+    90% {right:100px;}
+    100%{right:100px;}
    }
  
   .discount-box{
