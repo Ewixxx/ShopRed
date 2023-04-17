@@ -362,7 +362,7 @@ footer{
       100%{right:100px;} 
   }
    @-webkit-keyframes slide_animation{
-    0%  {right:10px;}
+    0%  {right:100px;}
     10% {right:100px;}
     20% {right:450px;}
     30% {right:450px;}
