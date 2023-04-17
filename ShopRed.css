@@ -40,32 +40,6 @@ footer{
 	background: black;
 	height: 50px;
 	width: 100vw;
-	
-}
-/*content*/
-.footer{
-    background-size: 100%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-	text-align: center;
-	background-color: #2A3439;
-}
-.footer p{
-	position:relative; bottom: 25px;
-	position:relative; right: 23px;
-    line-height: 10px;
-    font-size: 14px;
-	color: white;
-
-}
-footer{
-	position: fixed;
-	bottom: 0;
-	background: black;
-	height: 50px;
-	width: 100vw;
 }
 /*content*/
 .footer{
@@ -80,7 +54,7 @@ footer{
 
 /*social -media*/
 .socials{
-    position:relative; right: 10px;
+    position:relative; left: 10px;
     list-style: none;
     display: flex;
     align-items: center;
