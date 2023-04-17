@@ -349,17 +349,17 @@ footer{
  
  
   @keyframes slide_animation{
-      0% {bottom:0px;}
-      10% {bottom:100px;}
-      20% {bottom:150px;}
-      30% {bottom:100px;}
-      40% {bottom:300px;}
-      50% {bottom:250px;}
-      60% {bottom:300px;}
-      70% {bottom:100px;}
-      80% {bottom: 150px;}
-      90% {bottom: 100px;}
-      100% {right:0px;}	
+      0%  {right:0px;}
+      10% {right:0px;}
+      20% {right:400px;}
+      30% {right:400px;}
+      40% {right:800px;}
+      50% {right:800px;}
+      60% {right:1600px;}
+      70% {right:1600px;}
+      80% {right:800px;}
+      90% {right:800px;}
+      100%{right:0px;}	
   }
  
  
