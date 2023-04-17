@@ -295,7 +295,7 @@ footer{
 
 .services .services_box{
     width: 95%;
-    height: 40vh;
+    height:  40vh;
     margin: 0 auto;
     display: flex;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -328,76 +328,61 @@ footer{
 	color:white;
 }
 .discount{
-    overflow: hidden;
-    height: 400px;
-    width: 1200px;
-    margin-left: 0px;
-    margin-top: 20px;
-  
+	  overflow: hidden;
+      height: 400px;	
+      margin-left: 0px;
+      margin-top: 20px;
+	
 }
 
 .discount .discount-box .discount-image img{
-  position:relative; top: 100px;
-  position:center;
-  height: 50vh;
-  margin: 10px auto;
-  display: flex;
-  overflow: hidden;
-  overflow-x: scroll;
+	position:relative; top: 300px;
+	position:center;
+    height: 50vh;
+    margin: 10px auto;
+    display: flex;
+
 }
 
 
-/*---------- SLIDE ANIMATION --------------*/
-
-
-@keyframes slide_animation{
-    0% {right:0px;}
-    10% {right:0px;}
-    20% {right:480px;}
-    30% {right:480px;}
-    40% {right: 960px;}
-    50% {right: 960px;}
-    60% {right: 480px;}
-    70% {right: 480px;}
-    80% {right: 0px;}
-    90% {right: 0px;}
-    100% {right:0px;}	
-}
-
-@-webkit-keyframes slide_animation{
-    0% {right:0px;}
-    10% {right:0px;}
-    20% {right:480px;}
-    30% {right:480px;}
-    40% {right: 960px;}
-    50% {right: 960px;}
-    60% {right: 480px;}
-    70% {right: 480px;}
-    80% {right: 0px;}
-    90% {right: 0px;}
-    100% {right:0px;}	
-}
-
-.discount-box{
-    width: 3600px;
-    margin: 0 0 0 0;
-    height: 800px;
-    position: relative;
-    -webkit-animation-name: slide_animation;
-    animation-name: slide_animation;
-    -webkit-animation-duration: 33s;
-    animation-duration: 33s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;
-    -webkit-animation-direction: alternate;
-    animation-direction: alternate;
-    -webkit-animation-play-state: running;
-    animation-play-state: running;
-}
-
-.discount-image{
-    height: 800px;
-    width: 480px;
-    position: relative;
-    float: left;
-}
+  /*---------- SLIDE ANIMATION --------------*/
+ 
+ 
+  @keyframes slide_animation{
+      0% {bottom:0px;}
+      10% {bottom:100px;}
+      20% {bottom:150px;}
+      30% {bottom:100px;}
+      40% {bottom:300px;}
+      50% {bottom:250px;}
+      60% {bottom:300px;}
+      70% {bottom:100px;}
+      80% {bottom: 150px;}
+      90% {bottom: 100px;}
+      100% {right:0px;}	
+  }
+ 
+ 
+  .discount-box{
+      width: 100%;
+	  margin: 0 0 0 0;
+      height:400px;
+      position: relative;
+      -webkit-animation-name: slide_animation;
+      animation-name: slide_animation;
+      -webkit-animation-duration: 10s;
+      animation-duration: 10s;
+      -webkit-animation-iteration-count: infinite;
+      animation-iteration-count: infinite;
+      -webkit-animation-direction: alternate;
+      animation-direction: alternate;
+      -webkit-animation-play-state: running;
+      animation-play-state: running;
+  }
+ 
+  .discount-image{
+      height: 800px;
+      width: 480px;
+      position: center;
+      float: center;
+  }
