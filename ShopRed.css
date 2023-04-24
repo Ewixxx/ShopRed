@@ -34,6 +34,8 @@ background-position: center;
 	 color: red;
 }
 
+
+
 footer{
 	position: fixed;
 	bottom: 0;
@@ -54,7 +56,7 @@ footer{
 
 /*social -media*/
 .socials{
-    position:relative; left: 10px;
+position:relative; left: 10px;
     list-style: none;
     display: flex;
     align-items: center;
@@ -80,6 +82,7 @@ footer{
 .socials a:hover i{
     color: dodgerblue;
 }
+
 .floating {  
 position:relative; right: 15px;
     animation-name: floating;
@@ -113,7 +116,7 @@ position:relative; right: 15px;
 .discount .discount-box .discount-image img{
 	position:relative; top: 200px;
 	position:center;
-    height: 100vh;
+    height: 40vh;
     margin: 10px auto;
     display: flex;
 
@@ -124,30 +127,30 @@ position:relative; right: 15px;
  
  
   @keyframes slide_animation{
-	  0%  {right:50px;}
-      10% {right:50px;}
-      20% {right:450px;}
-      30% {right:450px;}
-      40% {right:900px;}
-      50% {right:900px;}
-      60% {right:450px;}
-      70% {right:450px;}
-      80% {right:100px;}
-      90% {right:100px;}
-      100%{right:100px;}
+	  0%  {right:-20px;}
+      10% {right:-20px;}
+      20% {right:480px;}
+      30% {right:480px;}
+      40% {right:980px;}
+      50% {right:980px;}
+      60% {right:480px;}
+      70% {right:480px;}
+      80% {right:-20px;}
+      90% {right:-20px;}
+      100%{right:-20px;}
   }
    @-webkit-keyframes slide_animation{
-	  0%  {right:100px;}
-      10% {right:100px;}
-      20% {right:450px;}
-      30% {right:450px;}
-      40% {right:900px;}
-      50% {right:900px;}
-      60% {right:450px;}
-      70% {right:450px;}
-      80% {right:100px;}
-      90% {right:100px;}
-      100%{right:100px;} 
+	  0%  {right:-20px;}
+      10% {right:-20px;}
+      20% {right:480px;}
+      30% {right:480px;}
+      40% {right:950px;}
+      50% {right:950px;}
+      60% {right:480px;}
+      70% {right:480px;}
+      80% {right:-20px;}
+      90% {right:-20px;}
+      100%{right:-20px;}
    }
  
   .discount-box{
